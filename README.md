@@ -1,14 +1,14 @@
 <div align="center">
 
-# 🚀 VOID-TOOLS v2.0 — OUT NOW !
+# 🚀 VOID-TOOLS v2.0 — OUT NOW!
 
-### La v2 est sortie · 150+ tools · 13 thèmes · mises à jour auto · FR/EN
+### v2 is live · 150+ tools · 13 themes · auto-updates · bilingual UI
 
 [![⬇ Download v2.0](https://img.shields.io/badge/⬇_Download-Void--Tools%20v2.0-FF2020?style=for-the-badge&logo=github&logoColor=white)](https://github.com/V0id-v2/Void-Tools-v2.0/archive/refs/heads/main.zip)
 [![⭐ Star v2.0](https://img.shields.io/github/stars/V0id-v2/Void-Tools-v2.0?color=FF2020&style=for-the-badge&label=⭐_Star_v2.0)](https://github.com/V0id-v2/Void-Tools-v2.0/stargazers)
 [![Official repo](https://img.shields.io/badge/Official-V0id--v2%2FVoid--Tools--v2.0-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/V0id-v2/Void-Tools-v2.0)
 
-*Ce repo = **v1 archive**. Télécharge **v2.0** pour la version actuelle.*
+*This repo is the **v1 archive**. Download **v2.0** for the current version.*
 
 <br>
 
