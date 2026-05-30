@@ -12,13 +12,20 @@
 
 <br>
 
-> **VOID-TOOLS v1.0 — Python terminal dashboard · modular CLI · 11 categories**
+> **VOID-TOOLS v1.0 — legacy archive**
 
 <br>
 
-[![Star](https://raw.githubusercontent.com/v0id4real/Void-Tools/main/Void/screenshots/star.gif)](https://github.com/v0id4real/Void-Tools/stargazers)
+### 📦 Active version → [**VOID-TOOLS v2.0**](https://github.com/V0id-v2/Void-Tools-v2.0)
 
-### ⭐ Star this repo to support development and future updates ⭐
+[![Download v2.0](https://img.shields.io/badge/Download-Void--Tools%20v2.0-FF2020?style=for-the-badge&logo=github&logoColor=white)](https://github.com/V0id-v2/Void-Tools-v2.0/archive/refs/heads/main.zip)
+[![Star v2.0](https://img.shields.io/github/stars/V0id-v2/Void-Tools-v2.0?color=FF2020&style=for-the-badge&label=Star%20v2.0)](https://github.com/V0id-v2/Void-Tools-v2.0/stargazers)
+
+*This repository stays online as **v1 archive**. New features, updates, and support are on **v2.0** only.*
+
+<br>
+
+[![Star](https://raw.githubusercontent.com/v0id4real/Void-Tools/main/Void/screenshots/star.gif)](https://github.com/V0id-v2/Void-Tools-v2.0/stargazers)
 
 </div>
 
@@ -161,12 +168,13 @@ Examples: OSINT Framework, Epieos, public search engines, documentation hubs.
 
 ## 🗺️ Roadmap
 
-| Status | Feature |
+| Status | Version |
 |--------|---------|
-| ✅ | v1.0 — 11 categories |
-| 🔒 | v2.0 — major update (follow repo for news) |
+| 📦 | **v1.0** — archived (this repo) |
+| ✅ | **v2.0** — active development |
 
-**New version:** [Void-Tools v2.0](https://github.com/V0id-v2/Void-Tools-v2.0)
+👉 **[Void-Tools v2.0 — official repo](https://github.com/V0id-v2/Void-Tools-v2.0)**  
+Download · updates · remote sync · 150+ tools
 
 ---
 
@@ -186,6 +194,6 @@ Distributed under the **GNU AGPL v3.0** — see [LICENSE](https://github.com/v0i
 
 <br>
 
-*If you find this useful, drop a ⭐ — it helps more than you think.*
+*Legacy v1 archive — for the current version, star [**Void-Tools v2.0**](https://github.com/V0id-v2/Void-Tools-v2.0/stargazers).*
 
 </div>
