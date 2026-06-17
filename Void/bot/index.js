@@ -15,7 +15,7 @@ nuker.on("ready", () => {
                               ▀▀▀▀▀•  ▀  ▀  ▀▀▀▀ ▀▪ ▀  ▀ 
                        ﹥━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━﹤
                                   Discord : fullsafe.
-                    Support Discord : https://discord.gg/tdTUvwVpMY
+                    Support : t.me/v0idtool · discord.gg/voidv2
              ﹥━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━﹤     
 
                                                                                                                     

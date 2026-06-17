@@ -23,7 +23,7 @@ def verifier_webhook(url):
                 
 > __**Votre webhook fonctionne, vous pouvez commencer à générer des Nitro !**__
 
-> https://discord.gg/W6z9SQgvqc
+> https://t.me/v0idtool · https://discord.gg/voidv2
 
 > https://github.com/void4real/Void-Tools
 

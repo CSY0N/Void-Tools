@@ -38,9 +38,21 @@ C_GOLD    = "#FFD700"
 C_GOLD2   = "#FFA500"
 
 GITHUB       = "https://github.com/v0id4real/Void-Tools"
-NUKER_GITHUB = "https://github.com/v0id4real/Void-Tools"
-DISCORD      = "https://discord.gg/v0id"
+NUKER_GITHUB = "https://github.com/void4real/Void-Nuke"
+TELEGRAM     = "https://t.me/v0idtool"
+TELEGRAM_TAG = "t.me/v0idtool"
+DISCORD      = "https://discord.gg/voidv2"
+DISCORD_TAG  = "discord.gg/voidv2"
 path         = os.getcwd()
+
+
+def open_community_links():
+    for url in (TELEGRAM, DISCORD):
+        try:
+            webbrowser.open(url)
+            time.sleep(0.4)
+        except Exception:
+            pass
 
 def sp(f, n): return os.path.join(path, "Void", "tools", f, n)
 def cls():    os.system("cls" if os.name == "nt" else "clear")
@@ -173,7 +185,7 @@ def draw_logo_rich():
 def first_run():
     flag = os.path.join(path, "Void", "data", ".launched")
     if not os.path.exists(flag):
-        webbrowser.open(DISCORD)
+        open_community_links()
         webbrowser.open(GITHUB)
         gif = os.path.join(path, "Void", "screenshots", "Star.gif")
         if os.name == "nt":
@@ -198,7 +210,7 @@ def boot():
     console.print(Panel(
         Align.center(Text.from_markup(
             f"[{C_NEON} bold][ ALL SYSTEMS ONLINE ]\n"
-            f"[{C_MID}]VOID-TOOL v1.0  ·  by 1s0e  ·  {DISCORD}"
+            f"[{C_MID}]VOID-TOOL v1.0  ·  by 1s0e  ·  {TELEGRAM_TAG} · {DISCORD_TAG}"
         )),
         border_style=C_BLOOD, box=box.DOUBLE_EDGE, padding=(0, 2),
     ))
@@ -208,8 +220,9 @@ def draw_header():
     cls(); console.print()
     draw_logo_rich(); console.print()
     left  = Text.from_markup(f"[{C_MID}] v1.0  [{C_DARK}]|[/]  by [{C_WHITE} bold]1s0e")
-    right = Text.from_markup(f"[{C_DARK}]{DISCORD}")
-    w = tw(); gap = w - len(" v1.0  |  by 1s0e") - len(DISCORD) - 2
+    comm = f"{TELEGRAM_TAG} · {DISCORD_TAG}"
+    right = Text.from_markup(f"[{C_DARK}]{comm}")
+    w = tw(); gap = w - len(" v1.0  |  by 1s0e") - len(comm) - 2
     console.print(left, end=""); console.print(" " * max(1, gap), end=""); console.print(right)
     seg = (w - 2) // 3
     console.print(f"[{C_BLOOD}]" + "─"*seg + f"[{C_MID}]" + "─"*seg + f"[{C_NEON}]" + "─"*(w-2-seg*2))
@@ -454,12 +467,13 @@ def home():
     while True:
         o = show("~/home", "HOME  ·  1/11", [
             ("cat",    "VOID-TOOL"),
-            ("cols",   [("01","GitHub"), ("02","Discord")]),
+            ("cols",   [("01","GitHub"), ("02","Telegram"), ("03","Discord")]),
             ("nav",    "N", "next  ──>  osint"),
             ("navlast","Q", "quit"),
         ])
         if   o == "01": webbrowser.open(GITHUB)
-        elif o == "02": webbrowser.open(DISCORD)
+        elif o == "02": webbrowser.open(TELEGRAM)
+        elif o == "03": webbrowser.open(DISCORD)
         elif o.upper() == "N": page_osint(); return
         elif o.upper() == "Q": cls(); sys.exit(0)
 
@@ -545,7 +559,7 @@ def page_nuker_a():
         if   o.upper() == "N": page_nuker_b(); return
         elif o.upper() == "B": page_attack();  return
         elif o in ("13","14"): star()
-        elif o in NK: webbrowser.open(DISCORD); webbrowser.open(NUKER_GITHUB)
+        elif o in NK: open_community_links(); webbrowser.open(NUKER_GITHUB)
 
 def page_nuker_b():
     NK = {f"{i:02d}" for i in range(1,13)}
@@ -571,7 +585,7 @@ def page_nuker_b():
         if   o.upper() == "N": page_ip();      return
         elif o.upper() == "B": page_nuker_a(); return
         elif o in ("13","14"): star()
-        elif o in NK: webbrowser.open(DISCORD); webbrowser.open(NUKER_GITHUB)
+        elif o in NK: open_community_links(); webbrowser.open(NUKER_GITHUB)
         elif o == "00": subprocess.run(["node", os.path.join(path,"Void","bot","index.js")], shell=True)
         elif o.upper() == "X":
             console.print(f"[{C_MID}]  config  ──>  {path}\\Void\\config\\discord-nuker.json")
@@ -731,7 +745,7 @@ def page_about():
             ("cat",  "INFO"),
             ("cols", [
                 ("  ","author   ──>  1s0e"),  ("  ","version  ──>  3.0"),
-                ("  ","github.com/void4real"), ("  ",".gg/W6z9SQgvqc"),
+                ("  ","github.com/void4real"), ("  ",f"{TELEGRAM_TAG} · {DISCORD_TAG}"),
             ]),
             ("loclast", "500 stars on github  ──>  v2.0"),
             ("nav",    "01", "open github  ──>  leave a star!"),

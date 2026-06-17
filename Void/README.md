@@ -6,7 +6,8 @@
 
 [![Stars](https://img.shields.io/github/stars/void4real/Void-Tools?color=ff0000&style=for-the-badge&logo=github&logoColor=white)](https://github.com/void4real/Void-Tools/stargazers)
 [![Forks](https://img.shields.io/github/forks/void4real/Void-Tools?color=8b0000&style=for-the-badge&logoColor=white)](https://github.com/void4real/Void-Tools/network)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Server-ff0000?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/W6z9SQgvqc)
+[![Telegram](https://img.shields.io/badge/Telegram-t.me%2Fv0idtool-ff0000?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/v0idtool)
+[![Discord](https://img.shields.io/badge/Discord-discord.gg%2Fvoidv2-ff0000?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/voidv2)
 [![License](https://img.shields.io/github/license/void4real/Void-Tools?color=ff0000&style=for-the-badge)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.11.5-ff0000?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
@@ -207,7 +208,7 @@ Distributed under the **GNU AGPL v3.0** — [View License](https://github.com/vo
 
 **Join the Discord for support, updates, and early access**
 
-[![Discord](https://img.shields.io/badge/Discord-discord.gg/W6z9SQgvqc-ff0000?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/W6z9SQgvqc)
+[![Discord](https://img.shields.io/badge/Discord-discord.gg%2Fvoidv2-ff0000?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/voidv2)
 
 **Owner · `1s0e`**
 
